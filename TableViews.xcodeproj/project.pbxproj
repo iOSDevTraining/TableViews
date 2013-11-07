@@ -19,6 +19,9 @@
 		0336BAE2182C3A3600AC2062 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0336BACA182C3A3600AC2062 /* UIKit.framework */; };
 		0336BAEA182C3A3600AC2062 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0336BAE8182C3A3600AC2062 /* InfoPlist.strings */; };
 		0336BAEC182C3A3600AC2062 /* TableViewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0336BAEB182C3A3600AC2062 /* TableViewsTests.m */; };
+		0336BAF6182C3B5F00AC2062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0336BAF5182C3B5F00AC2062 /* Main.storyboard */; };
+		0336BAF9182C3C0E00AC2062 /* IDTHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0336BAF8182C3C0E00AC2062 /* IDTHomeViewController.m */; };
+		0336BAFF182C3F3A00AC2062 /* IDTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0336BAFE182C3F3A00AC2062 /* IDTDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +51,11 @@
 		0336BAE7182C3A3600AC2062 /* TableViewsTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TableViewsTests-Info.plist"; sourceTree = "<group>"; };
 		0336BAE9182C3A3600AC2062 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0336BAEB182C3A3600AC2062 /* TableViewsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TableViewsTests.m; sourceTree = "<group>"; };
+		0336BAF5182C3B5F00AC2062 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		0336BAF7182C3C0E00AC2062 /* IDTHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDTHomeViewController.h; sourceTree = "<group>"; };
+		0336BAF8182C3C0E00AC2062 /* IDTHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDTHomeViewController.m; sourceTree = "<group>"; };
+		0336BAFD182C3F3A00AC2062 /* IDTDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IDTDetailViewController.h; sourceTree = "<group>"; };
+		0336BAFE182C3F3A00AC2062 /* IDTDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IDTDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,8 +115,13 @@
 		0336BACC182C3A3600AC2062 /* TableViews */ = {
 			isa = PBXGroup;
 			children = (
+				0336BAF5182C3B5F00AC2062 /* Main.storyboard */,
 				0336BAD5182C3A3600AC2062 /* IDTAppDelegate.h */,
 				0336BAD6182C3A3600AC2062 /* IDTAppDelegate.m */,
+				0336BAF7182C3C0E00AC2062 /* IDTHomeViewController.h */,
+				0336BAF8182C3C0E00AC2062 /* IDTHomeViewController.m */,
+				0336BAFD182C3F3A00AC2062 /* IDTDetailViewController.h */,
+				0336BAFE182C3F3A00AC2062 /* IDTDetailViewController.m */,
 				0336BAD8182C3A3600AC2062 /* Images.xcassets */,
 				0336BACD182C3A3600AC2062 /* Supporting Files */,
 			);
@@ -220,6 +233,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0336BAF6182C3B5F00AC2062 /* Main.storyboard in Resources */,
 				0336BAD1182C3A3600AC2062 /* InfoPlist.strings in Resources */,
 				0336BAD9182C3A3600AC2062 /* Images.xcassets in Resources */,
 			);
@@ -240,8 +254,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0336BAF9182C3C0E00AC2062 /* IDTHomeViewController.m in Sources */,
 				0336BAD7182C3A3600AC2062 /* IDTAppDelegate.m in Sources */,
 				0336BAD3182C3A3600AC2062 /* main.m in Sources */,
+				0336BAFF182C3F3A00AC2062 /* IDTDetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -442,6 +458,7 @@
 				0336BAF1182C3A3600AC2062 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0336BAF2182C3A3600AC2062 /* Build configuration list for PBXNativeTarget "TableViewsTests" */ = {
 			isa = XCConfigurationList;
@@ -450,6 +467,7 @@
 				0336BAF4182C3A3600AC2062 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
